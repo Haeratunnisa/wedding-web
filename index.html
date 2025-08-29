@@ -668,17 +668,17 @@
                 playOverlay.addEventListener('transitionend', () => playOverlay.remove(), { once: true });
             });
 
-                // Fungsi untuk memulai undangan
-                function startInvitation() {
-                    // Hilangkan overlay dengan menambahkan kelas 'hidden'
-                    playOverlay.classList.add('hidden');
-            
-                    // Tampilkan konten utama dengan menghapus kelas 'hidden'
-                    mainContent.classList.remove('hidden');
-            
-                    // Putar musik
-                    backgroundMusic.play();
-                }
+            // Fungsi untuk memulai undangan
+            function startInvitation() {
+                // Hilangkan overlay dengan menambahkan kelas 'hidden'
+                playOverlay.classList.add('hidden');
+        
+                // Tampilkan konten utama dengan menghapus kelas 'hidden'
+                mainContent.classList.remove('hidden');
+        
+                // Putar musik
+                backgroundMusic.play();
+            }
 
             // Event listener untuk memulai animasi saat scroll
             window.addEventListener('scroll', () => {
