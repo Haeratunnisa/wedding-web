@@ -99,6 +99,15 @@
                 opacity: 0;
             }
         }
+
+    /* Background nuansa Jepang & Cina */
+    body {
+      background: url('https://png.pngtree.com/background/20210709/original/pngtree-red-chinese-style-lantern-picture-image_934344.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.65); /* lapisan transparan gelap */
+    }
     </style>
 </head>
 <body class="bg-sky-50 text-gray-800">
@@ -281,9 +290,15 @@
         </div>
     </section> -->
 
+    <!-- Ornamen Lampion -->
+    <div class="absolute top-6 flex gap-8 justify-center w-full" data-aos="fade-down" data-aos-duration="1000">
+      <img src="https://raw.githubusercontent.com/Haeratunnisa/wedding-site/main/audio/ornamen.png" alt="lampion" class="w-12 h-12 lantern">
+      <img src="https://raw.githubusercontent.com/Haeratunnisa/wedding-site/main/audio/ornamen.png" alt="lampion" class="w-12 h-12 lantern delay-150">
+      <img src="https://raw.githubusercontent.com/Haeratunnisa/wedding-site/main/audio/ornamen.png" alt="lampion" class="w-12 h-12 lantern delay-300">
+    </div>
     <!-- Kaligrafi Basmalah -->
   <div class="mt-28">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Basmala.svg" alt="Basmallah" class="mx-auto w-60">
+    <img src="https://raw.githubusercontent.com/Haeratunnisa/wedding-site/main/audio/bismillah.png" alt="Basmallah" class="mx-auto w-60">
   </div>
 
   <!-- Salam & Ayat -->
@@ -308,8 +323,8 @@
     <div class="w-40 h-40 rounded-2xl overflow-hidden border-4 border-white mx-auto">
       <img src="https://via.placeholder.com/200x200.png?text=Wanita" alt="Mempelai Wanita" class="w-full h-full object-cover">
     </div>
-    <h3 class="mt-3 font-semibold text-lg">Maura Aziza S.T</h3>
-    <p class="text-sm text-gray-300">Putri pertama dari Bapak Mansur & Ibu Mansur</p>
+    <h3 class="mt-3 font-semibold text-lg">Miftah Khairani, S. Pd., M. Pd.</h3>
+    <p class="text-sm text-gray-300">Putri pertama dari Bapak Mansur & Ibu Halima, S.IP</p>
   </div>
 
   <!-- Simbol Penghubung -->
@@ -320,8 +335,8 @@
     <div class="w-40 h-40 rounded-2xl overflow-hidden border-4 border-white mx-auto">
       <img src="https://via.placeholder.com/200x200.png?text=Pria" alt="Mempelai Pria" class="w-full h-full object-cover">
     </div>
-    <h3 class="mt-3 font-semibold text-lg">Muhammad Alif S.T</h3>
-    <p class="text-sm text-gray-300">Putra pertama dari Bapak Hasan & Ibu Hasan</p>
+    <h3 class="mt-3 font-semibold text-lg">Muhamad Rama Muhyinur Syarifuddin, S. Pd</h3>
+    <p class="text-sm text-gray-300">Putra pertama dari Bapak Syarifuddin & Ibu Sri Rezeki</p>
   </div>
 
   <!-- Penutup -->
@@ -338,14 +353,14 @@
                     <i data-lucide="gem" class="w-12 h-12 text-sky-600 mx-auto mb-4"></i>
                     <h3 class="text-3xl font-semibold text-sky-800 mb-2">💍 Akad Nikah</h3>
                     <p class="text-lg text-gray-600">Kamis, 04 September 2025</p>
-                    <p class="text-lg text-gray-600">Pukul 10:00 WIB</p>
+                    <p class="text-lg text-gray-600">Pukul 08:00 WITA</p>
                     <p class="mt-4 text-gray-500"><i data-lucide="map-pin" class="inline-block w-4 h-4 mr-2"></i>Jl. Poros Wamengkoli, Desa Nepa Mekar, Kec. Lakudo, Kab. Buton Tengah, Sulawesi Tenggara.</p>
                 </div>
                 <div class="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-lg" data-aos="zoom-in" data-aos-delay="200">
                     <i data-lucide="glass-water" class="w-12 h-12 text-sky-600 mx-auto mb-4"></i>
                     <h3 class="text-3xl font-semibold text-sky-800 mb-2">🎉 Resepsi</h3>
                     <p class="text-lg text-gray-600">Kamis, 04 September 2025</p>
-                    <p class="text-lg text-gray-600">Pukul 13:00 WIB - Selesai</p>
+                    <p class="text-lg text-gray-600">Pukul 12:30 WITA - Selesai</p>
                      <p class="mt-4 text-gray-500"><i data-lucide="map-pin" class="inline-block w-4 h-4 mr-2"></i>Jl. Poros Wamengkoli, Desa Nepa Mekar, Kec. Lakudo, Kab. Buton Tengah, Sulawesi Tenggara.</p>
                 </div>
             </div>
@@ -362,6 +377,12 @@
             <a href="https://maps.app.goo.gl/wS78pG17T5fJkE5w8" target="_blank" class="inline-block mt-8 btn-custom py-3 px-6 rounded-lg font-semibold"><i class="fas fa-map-marker-alt mr-2"></i>Buka di Google Maps</a>
         </div>
     </section>
+
+<!-- Script AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
     <!-- Story Section -->
     <section id="story" class="py-20 px-6 bg-sky-50">
